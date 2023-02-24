@@ -3,44 +3,82 @@
     "templates": [
         {
             "type": 1,
-            "title": "Ubuntux",
-            "description": "Debian-based Linux operating system",
+            "title": "Fire Dynamics Simulator (FDS) 6.7.6",
+            "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
             "categories": [
                 "operating-system"
             ],
             "platform": "linux",
-            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ubuntu.png",
-            "image": "ubuntu:latest",
+            "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+            "image": "openbcl/fds:6.7.6",
             "interactive": true,
-            "command": "/bin/bash",
-            "repository": {
-                "url": "https://github.com/portainer/templates",
-                "stackfile": "stacks/tosibox/docker-compose.yml"
-            },
+            "command": "bash <(curl -s https://raw.githubusercontent.com/Satcomx00-x00/portainer2.0-appTemplates/main/launch_fds.sh)",
             "env": [
                 {
-                    "name": "LICENSE_KEY",
-                    "label": "License key"
+                    "name": "MPI",
+                    "label": "Number of MPI Processes"
                 },
                 {
-                    "name": "app_tag_name",
-                    "label": "app image",
-                    "default": "17.1.2",
-                    "preset": true,
-                    "select": [
-                        {
-                            "text": "latest",
-                            "value": "latest",
-                            "default": true
-                        },
-                        {
-                            "text": "<redacted>",
-                            "value": "<redacted>",
-                            "default": false
-                        }
-                    ],
-                    "type": 3,
-                    "value": "17.1.2"
+                    "name": "Threads",
+                    "label": "Number of OpenMP Threads"
+                },
+                {
+                    "name": "FDS_File_path",
+                    "label": ".fds exact file path"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "title": "Fire Dynamics Simulator (FDS) 6.7.1",
+            "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+            "categories": [
+                "operating-system"
+            ],
+            "platform": "linux",
+            "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+            "image": "openbcl/fds:6.7.1",
+            "interactive": true,
+            "command": "bash <(curl -s https://raw.githubusercontent.com/Satcomx00-x00/portainer2.0-appTemplates/main/launch_fds.sh)",
+            "env": [
+                {
+                    "name": "MPI",
+                    "label": "Number of MPI Processes"
+                },
+                {
+                    "name": "Threads",
+                    "label": "Number of OpenMP Threads"
+                },
+                {
+                    "name": "FDS_File_path",
+                    "label": ".fds exact file path"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "title": "Fire Dynamics Simulator (FDS) 6.4.0",
+            "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+            "categories": [
+                "operating-system"
+            ],
+            "platform": "linux",
+            "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+            "image": "openbcl/fds:6.4.0",
+            "interactive": true,
+            "command": "bash <(curl -s https://raw.githubusercontent.com/Satcomx00-x00/portainer2.0-appTemplates/main/launch_fds.sh)",
+            "env": [
+                {
+                    "name": "MPI",
+                    "label": "Number of MPI Processes"
+                },
+                {
+                    "name": "Threads",
+                    "label": "Number of OpenMP Threads"
+                },
+                {
+                    "name": "FDS_File_path",
+                    "label": ".fds exact file path"
                 }
             ]
         }
