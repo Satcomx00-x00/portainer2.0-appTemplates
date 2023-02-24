@@ -1,0 +1,48 @@
+{
+    "version": "2",
+    "templates": [
+        {
+            "type": 1,
+            "title": "Ubuntux",
+            "description": "Debian-based Linux operating system",
+            "categories": [
+                "operating-system"
+            ],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ubuntu.png",
+            "image": "ubuntu:latest",
+            "interactive": true,
+            "command": "/bin/bash",
+            "repository": {
+                "url": "https://github.com/portainer/templates",
+                "stackfile": "stacks/tosibox/docker-compose.yml"
+            },
+            "env": [
+                {
+                    "name": "LICENSE_KEY",
+                    "label": "License key"
+                },
+                {
+                    "name": "app_tag_name",
+                    "label": "app image",
+                    "default": "17.1.2",
+                    "preset": true,
+                    "select": [
+                        {
+                            "text": "latest",
+                            "value": "latest",
+                            "default": true
+                        },
+                        {
+                            "text": "<redacted>",
+                            "value": "<redacted>",
+                            "default": false
+                        }
+                    ],
+                    "type": 3,
+                    "value": "17.1.2"
+                }
+            ]
+        }
+    ]
+}
