@@ -6,7 +6,7 @@
             "title": "Fire Dynamics Simulator (FDS) 6.7.6",
             "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
             "categories": [
-                "operating-system"
+                "FDS"
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
@@ -44,7 +44,7 @@
             "title": "Fire Dynamics Simulator (FDS) 6.7.1",
             "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
             "categories": [
-                "operating-system"
+                "FDS"
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
@@ -82,7 +82,7 @@
             "title": "Fire Dynamics Simulator (FDS) 6.4.0",
             "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
             "categories": [
-                "operating-system"
+                "FDS"
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
