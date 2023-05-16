@@ -12,27 +12,31 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.7.6",
             "interactive": true,
-            "command": "mpiexec -n 2 fds \"$FDS_FILE_PATH\" -p \"$MPI\" -o \"$THREADS\"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\" -ppn \"$THREADS\"",
             "env": [
                 {
                     "name": "MPI",
-                    "label": "Number of MPI Processes"
+                    "label": "Number of MPI Processes",
+                    "default": "1"
                 },
                 {
                     "name": "THREADS",
-                    "label": "Number of OpenMP Threads"
+                    "label": "Number of OpenMP Threads",
+                    "default": "1"
                 },
                 {
                     "name": "FDS_FILE_PATH",
-                    "label": ".fds exact file path"
+                    "label": ".fds exact file path",
+                    "default": "/stockage/internal/YOUR_AP_LOGIN_HERE"
                 }
             ],
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/home/ego/fds_test"
+                    "bind": "/stockage/internal"
                 }
             ],
+            "network_mode": "none",
             "restart_policy": "unless-stopped"
         },
         {
@@ -46,27 +50,31 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.7.1",
             "interactive": true,
-            "command": "mpiexec -n 2 fds \"$FDS_FILE_PATH\" -p \"$MPI\" -o \"$THREADS\"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\" -ppn \"$THREADS\"",
             "env": [
                 {
                     "name": "MPI",
-                    "label": "Number of MPI Processes"
+                    "label": "Number of MPI Processes",
+                    "default": "1"
                 },
                 {
                     "name": "THREADS",
-                    "label": "Number of OpenMP Threads"
+                    "label": "Number of OpenMP Threads",
+                    "default": "1"
                 },
                 {
                     "name": "FDS_FILE_PATH",
-                    "label": ".fds exact file path"
+                    "label": ".fds exact file path",
+                    "default": "/stockage/internal/YOUR_AP_LOGIN_HERE"
                 }
             ],
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/home/ego/fds_test"
+                    "bind": "/stockage/internal"
                 }
             ],
+            "network_mode": "none",
             "restart_policy": "unless-stopped"
         },
         {
@@ -80,27 +88,31 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.4.0",
             "interactive": true,
-            "command": "mpiexec -n 2 fds \"$FDS_FILE_PATH\" -p \"$MPI\" -o \"$THREADS\"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\" -ppn \"$THREADS\"",
             "env": [
                 {
                     "name": "MPI",
-                    "label": "Number of MPI Processes"
+                    "label": "Number of MPI Processes",
+                    "default": "1"
                 },
                 {
                     "name": "THREADS",
-                    "label": "Number of OpenMP Threads"
+                    "label": "Number of OpenMP Threads",
+                    "default": "1"
                 },
                 {
                     "name": "FDS_FILE_PATH",
-                    "label": ".fds exact file path"
+                    "label": ".fds exact file path",
+                    "default": "/stockage/internal/YOUR_AP_LOGIN_HERE"
                 }
             ],
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/home/ego/fds_test"
+                    "bind": "/stockage/internal"
                 }
             ],
+            "network_mode": "none",
             "restart_policy": "unless-stopped"
         }
     ]
