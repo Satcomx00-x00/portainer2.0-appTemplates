@@ -27,13 +27,16 @@
                 {
                     "name": "FDS_FILE_PATH",
                     "label": ".fds exact file path",
-                    "default": "/stockage/internal/FDS_Input_Files/YOUR_AP_LOGIN_HERE/THE_FDS_FILE.fds"
+                    "default": "THE_FDS_FILE_NAME.fds"
                 }
             ],
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_AP_LOGIN_HERE/THE_FDS_FILE_NAME"
+                    "bind": "",
+                    "label": "Select FDS Input Files",
+                    "description": "Select the directory containing FDS input files",
+                    "defaultAccessMode": 1
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
@@ -72,7 +75,10 @@
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_AP_LOGIN_HERE/THE_FDS_FILE_NAME"
+                    "bind": "",
+                    "label": "Select FDS Input Files",
+                    "description": "Select the directory containing FDS input files",
+                    "defaultAccessMode": 1
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
@@ -111,7 +117,10 @@
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_AP_LOGIN_HERE/THE_FDS_FILE_NAME"
+                    "bind": "",
+                    "label": "Select FDS Input Files",
+                    "description": "Select the directory containing FDS input files",
+                    "defaultAccessMode": 1
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
