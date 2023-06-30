@@ -67,7 +67,7 @@
                 {
                     "name": "FDS_FILE_PATH",
                     "label": ".fds exact file path",
-                    "default": "/stockage/internal/FDS_Input_Files/YOUR_AP_LOGIN_HERE/THE_FDS_FILE.fds"
+                    "default": "THE_FDS_FILE_NAME.fds"
                 }
             ],
             "volumes": [
@@ -107,7 +107,7 @@
                 {
                     "name": "FDS_FILE_PATH",
                     "label": ".fds exact file path",
-                    "default": "/stockage/internal/FDS_Input_Files/YOUR_AP_LOGIN_HERE/THE_FDS_FILE.fds"
+                    "default": "THE_FDS_FILE_NAME.fds"
                 }
             ],
             "volumes": [
