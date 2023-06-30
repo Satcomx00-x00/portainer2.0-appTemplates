@@ -34,9 +34,7 @@
                 {
                     "container": "/workdir",
                     "bind": "",
-                    "label": "Select FDS Input Files",
-                    "description": "Select the directory containing FDS input files",
-                    "defaultAccessMode": 1
+                    "select_volume": true
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
@@ -76,9 +74,7 @@
                 {
                     "container": "/workdir",
                     "bind": "",
-                    "label": "Select FDS Input Files",
-                    "description": "Select the directory containing FDS input files",
-                    "defaultAccessMode": 1
+                    "select_volume": true
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
@@ -118,9 +114,7 @@
                 {
                     "container": "/workdir",
                     "bind": "",
-                    "label": "Select FDS Input Files",
-                    "description": "Select the directory containing FDS input files",
-                    "defaultAccessMode": 1
+                    "select_volume": true
                 }
             ],
             "user": "YOUR_USERNAME_HERE",
