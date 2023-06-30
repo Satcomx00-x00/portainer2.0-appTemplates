@@ -12,7 +12,7 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.7.6",
             "interactive": true,
-            "command": "mpiexec -n "$MPI" fds "$FDS_FILE_PATH"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\"",
             "env": [
                 {
                     "name": "MPI",
@@ -53,7 +53,7 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.7.1",
             "interactive": true,
-            "command": "mpiexec -n "$MPI" fds "$FDS_FILE_PATH"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\"",
             "env": [
                 {
                     "name": "MPI",
@@ -94,7 +94,7 @@
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
             "image": "openbcl/fds:6.4.0",
             "interactive": true,
-            "command": "mpiexec -n "$MPI" fds "$FDS_FILE_PATH"",
+            "command": "mpiexec -n \"$MPI\" fds \"$FDS_FILE_PATH\"",
             "env": [
                 {
                     "name": "MPI",
