@@ -10,7 +10,7 @@
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
-            "image": "airbus-protect/fds-6.7.6:latest",
+            "image": "ap/fds-6.7.6:latest",
             "interactive": true,
             "command": "mpiexec -n $MPI fds $FDS_FILE_PATH",
             "env": [
@@ -50,7 +50,7 @@
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
-            "image": "openbcl/fds:6.7.1",
+            "image": "ap/fds-6.7.1:latest",
             "interactive": true,
             "command": "mpiexec -n ${MPI} fds ${FDS_FILE_PATH}",
             "env": [
@@ -90,7 +90,7 @@
             ],
             "platform": "linux",
             "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
-            "image": "openbcl/fds:6.4.0",
+            "image": "ap/fds-6.4.0:latest",
             "interactive": true,
             "command": "mpiexec -n ${MPI} fds ${FDS_FILE_PATH}",
             "env": [
