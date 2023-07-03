@@ -39,7 +39,7 @@
             "user": "YOUR_USERNAME_HERE",
             "network_mode": "none",
             "restart_policy": "unless-stopped",
-            "entrypoint": "entrypoint.sh"
+            "entrypoint": "/entrypoint.sh"
         },
         {
             "type": 1,
