@@ -37,7 +37,6 @@
                 }
             ],
             "network_mode": "none",
-            "restart_policy": "never",
             "entrypoint": "/entrypoint.sh"
         },
         {
@@ -76,7 +75,7 @@
                 }
             ],
             "network_mode": "none",
-            "restart_policy": "never"
+            "entrypoint": "/entrypoint.sh"
         },
         {
             "type": 1,
@@ -114,7 +113,7 @@
                 }
             ],
             "network_mode": "none",
-            "restart_policy": "never"
+            "entrypoint": "/entrypoint.sh"
         }
     ]
 }
