@@ -65,13 +65,17 @@
                 {
                     "name": "FDS_FILE_PATH",
                     "label": ".fds exact file path",
-                    "default": "THE_FDS_FILE_NAME.fds"
+                    "default": "/files/THE_FDS_FILE_NAME.fds"
                 }
             ],
             "volumes": [
                 {
                     "container": "/workdir",
                     "bind": "/stockage/internal/FDS_Input_Files/YOUR_USERNAME/FDS_FOLDER",
+                    "select_volume": true
+                },
+                {
+                    "container": "/files",
                     "select_volume": true
                 }
             ],
