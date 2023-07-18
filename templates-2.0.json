@@ -36,9 +36,8 @@
                     "select_volume": true
                 }
             ],
-            "user": "YOUR_USERNAME_HERE",
             "network_mode": "none",
-            "restart_policy": "unless-stopped",
+            "restart_policy": "never",
             "entrypoint": "/entrypoint.sh"
         },
         {
@@ -76,9 +75,8 @@
                     "select_volume": true
                 }
             ],
-            "user": "YOUR_USERNAME_HERE",
             "network_mode": "none",
-            "restart_policy": "unless-stopped"
+            "restart_policy": "never"
         },
         {
             "type": 1,
@@ -115,9 +113,8 @@
                     "select_volume": true
                 }
             ],
-            "user": "YOUR_USERNAME_HERE",
             "network_mode": "none",
-            "restart_policy": "unless-stopped"
+            "restart_policy": "never"
         }
     ]
 }
