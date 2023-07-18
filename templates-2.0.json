@@ -37,11 +37,12 @@
                 }
             ],
             "network_mode": "none",
+            "restart_policy": "no",
             "entrypoint": "/entrypoint.sh"
         },
         {
             "type": 1,
-            "title": "Fire Dynamics Simulator (FDS) 6.7.1x",
+            "title": "Fire Dynamics Simulator (FDS) 6.7.1",
             "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
             "categories": [
                 "FDS"
@@ -75,7 +76,7 @@
                 }
             ],
             "network_mode": "none",
-            "entrypoint": "/entrypoint.sh"
+            "restart_policy": "no"
         },
         {
             "type": 1,
@@ -113,7 +114,7 @@
                 }
             ],
             "network_mode": "none",
-            "entrypoint": "/entrypoint.sh"
+            "restart_policy": "no"
         }
     ]
 }
