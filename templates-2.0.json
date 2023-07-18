@@ -32,7 +32,7 @@
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_USERNAME/",
+                    "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
                     "select_volume": true
                 }
             ],
@@ -72,7 +72,7 @@
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_USERNAME/",
+                    "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
                     "select_volume": true
                 }
             ],
@@ -111,7 +111,7 @@
             "volumes": [
                 {
                     "container": "/workdir",
-                    "bind": "/stockage/internal/YOUR_USERNAME/",
+                    "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
                     "select_volume": true
                 }
             ],
