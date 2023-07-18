@@ -76,7 +76,8 @@
                 }
             ],
             "network_mode": "none",
-            "restart_policy": "no"
+            "restart_policy": "no",
+            "shm-size":"768"
         },
         {
             "type": 1,
