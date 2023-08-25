@@ -127,6 +127,48 @@
             ],
             "network_mode": "none",
             "restart_policy": "no"
+        },
+        {
+            "type": 1,
+            "title": "OpenFoam 2306",
+            "description": "OpenFOAM is an open-source computational fluid dynamics (CFD) software package used for simulating and analyzing fluid flow and heat transfer phenomena.",
+            "categories": [
+                "OpenFoam"
+            ],
+            "platform": "linux",
+            "logo": "https://alternative.me/media/256/gnu-octave-icon-zxbh5s33l9r6r1bo-c.png",
+            "image": "ap/openfoam:latest", 
+            "interactive": true,
+            "env": [
+                {
+                    "name": "MPI",
+                    "label": "Number of MPI Processes",
+                    "default": "1"
+                },
+                {
+                    "name": "OMP_NUM_THREADS",
+                    "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
+                    "default": "1"
+                },
+                {
+                    "name": "OF_FILE_PATH",
+                    "label": ".fds exact file path",
+                    "default": "/files/THE_FDS_FILE_NAME.fds"
+                }
+            ],
+            "volumes": [
+                {
+                    "container": "/workdir",
+                    "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
+                    "select_volume": true
+                },
+                {
+                    "container": "/files",
+                    "select_volume": true
+                }
+            ],
+            "network_mode": "none",
+            "restart_policy": "no"
         }
     ]
 }
