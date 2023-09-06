@@ -235,7 +235,7 @@
                 {
                     "name": "ZIP_ARCHIVE_INTPUT",
                     "label": "A valid .zip file uploaded into your personal volume. (CASE SENSITIVE)",
-                    "default": "damBreak_Finer_4mpi.zip"
+                    "default": "damBreak_Finer_4mpi"
                 },
                 {
                     "name": "DIRECTORY",
