@@ -157,7 +157,7 @@
                     "default": "-parallel"
                 },
                 {
-                    "name": "ZIP_ARCHIVE_INTPUT",
+                    "name": "ZIP_ARCHIVE_INPUT",
                     "label": "A valid .zip file path uploaded into your personal volume. (CASE SENSITIVE)",
                     "default": "OpenFoam/damBreak_Finer_4mpi"
                 }
