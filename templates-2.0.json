@@ -148,82 +148,66 @@
                 {
                     "name": "Mode/Solver",
                     "label": "MODE",
-                    "default": "interFoam",
                     "select": [
                         {
                           "text": "coFoam",
-                          "value": "coFoam",
-                          "default": false
+                          "value": "coFoam"
                         },
                         {
                           "text": "pimpleFoam",
-                          "value": "pimpleFoam",
-                          "default": false
+                          "value": "pimpleFoam"
                         },
                         {
                           "text": "pisoFoam",
-                          "value": "pisoFoam",
-                          "default": false
+                          "value": "pisoFoam"
                         },
                         {
                           "text": "simpleFoam",
-                          "value": "simpleFoam",
-                          "default": false
+                          "value": "simpleFoam"
                         },
                         {
                           "text": "overSimpleFoam",
-                          "value": "overSimpleFoam",
-                          "default": false
+                          "value": "overSimpleFoam"
                         },
                         {
                           "text": "rhoCentralFoam",
-                          "value": "rhoCentralFoam",
-                          "default": false
+                          "value": "rhoCentralFoam"
                         },
                         {
                           "text": "rhoPimpleFoam",
-                          "value": "rhoPimpleFoam",
-                          "default": false
+                          "value": "rhoPimpleFoam"
                         },
                         {
                           "text": "rhoSimpleFoam",
-                          "value": "rhoSimpleFoam",
-                          "default": false
+                          "value": "rhoSimpleFoam"
                         },
                         {
                           "text": "sonicFoam",
-                          "value": "sonicFoam",
-                          "default": false
+                          "value": "sonicFoam"
                         },
                         {
                           "text": "fireFoam",
-                          "value": "fireFoam",
-                          "default": false
+                          "value": "fireFoam"
                         },
                         {
                           "text": "reactingFoam",
-                          "value": "reactingFoam",
-                          "default": false
+                          "value": "reactingFoam"
                         },
                         {
                           "text": "XiFoam",
-                          "value": "XiFoam",
-                          "default": false
+                          "value": "XiFoam"
                         },
                         {
                           "text": "buoyantSimpleFoam",
-                          "value": "buoyantSimpleFoam",
-                          "default": false
+                          "value": "buoyantSimpleFoam"
                         },
                         {
                           "text": "buoyantPimpleFoam",
-                          "value": "buoyantPimpleFoam",
-                          "default": false
+                          "value": "buoyantPimpleFoam"
                         },
                         {
                           "text": "interFoam",
-                          "value": "interFoam",
-                          "default": true
+                          "value": "interFoam"
                         }
                       ]
                 },
