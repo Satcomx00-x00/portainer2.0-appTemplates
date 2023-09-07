@@ -148,68 +148,8 @@
                 {
                     "name": "MODE",
                     "label": "Mode/Solver",
-                    "select": [
-                        {
-                          "text": "coFoam",
-                          "value": "coFoam"
-                        },
-                        {
-                          "text": "pimpleFoam",
-                          "value": "pimpleFoam"
-                        },
-                        {
-                          "text": "pisoFoam",
-                          "value": "pisoFoam"
-                        },
-                        {
-                          "text": "simpleFoam",
-                          "value": "simpleFoam"
-                        },
-                        {
-                          "text": "overSimpleFoam",
-                          "value": "overSimpleFoam"
-                        },
-                        {
-                          "text": "rhoCentralFoam",
-                          "value": "rhoCentralFoam"
-                        },
-                        {
-                          "text": "rhoPimpleFoam",
-                          "value": "rhoPimpleFoam"
-                        },
-                        {
-                          "text": "rhoSimpleFoam",
-                          "value": "rhoSimpleFoam"
-                        },
-                        {
-                          "text": "sonicFoam",
-                          "value": "sonicFoam"
-                        },
-                        {
-                          "text": "fireFoam",
-                          "value": "fireFoam"
-                        },
-                        {
-                          "text": "reactingFoam",
-                          "value": "reactingFoam"
-                        },
-                        {
-                          "text": "XiFoam",
-                          "value": "XiFoam"
-                        },
-                        {
-                          "text": "buoyantSimpleFoam",
-                          "value": "buoyantSimpleFoam"
-                        },
-                        {
-                          "text": "buoyantPimpleFoam",
-                          "value": "buoyantPimpleFoam"
-                        },
-                        {
-                          "text": "interFoam",
-                          "value": "interFoam"
-                        }
-                      ]
+                    "default":"interFoam"
+                    
                 },
                 {
                     "name": "ARGUMENTS",
