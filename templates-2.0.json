@@ -131,7 +131,7 @@
         {
             "type": 1,
             "title": "OpenFoam 2306",
-            "description": "OpenFOAM is an open-source computational fluid dynamics (CFD) software package used for simulating and analyzing fluid flow and heat transfer phenomena.",
+            "description": "V0.1|OpenFOAM is an open-source computational fluid dynamics (CFD) software package used for simulating and analyzing fluid flow and heat transfer phenomena.",
             "categories": [
                 "OpenFoam"
             ],
