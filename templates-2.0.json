@@ -131,7 +131,7 @@
         {
             "type": 1,
             "title": "OpenFoam 2306",
-            "description": "V0.3|OpenFOAM is an open-source computational fluid dynamics (CFD) software package used for simulating and analyzing fluid flow and heat transfer phenomena.",
+            "description": "V0.1|OpenFOAM is an open-source computational fluid dynamics (CFD) software package used for simulating and analyzing fluid flow and heat transfer phenomena.",
             "categories": [
                 "OpenFoam"
             ],
@@ -148,7 +148,68 @@
                 {
                     "name": "MODE",
                     "label": "Mode/Solver",
-                    "default": "interFoam"
+                    "select": [
+                        {
+                          "text": "coFoam",
+                          "value": "coFoam"
+                        },
+                        {
+                          "text": "pimpleFoam",
+                          "value": "pimpleFoam"
+                        },
+                        {
+                          "text": "pisoFoam",
+                          "value": "pisoFoam"
+                        },
+                        {
+                          "text": "simpleFoam",
+                          "value": "simpleFoam"
+                        },
+                        {
+                          "text": "overSimpleFoam",
+                          "value": "overSimpleFoam"
+                        },
+                        {
+                          "text": "rhoCentralFoam",
+                          "value": "rhoCentralFoam"
+                        },
+                        {
+                          "text": "rhoPimpleFoam",
+                          "value": "rhoPimpleFoam"
+                        },
+                        {
+                          "text": "rhoSimpleFoam",
+                          "value": "rhoSimpleFoam"
+                        },
+                        {
+                          "text": "sonicFoam",
+                          "value": "sonicFoam"
+                        },
+                        {
+                          "text": "fireFoam",
+                          "value": "fireFoam"
+                        },
+                        {
+                          "text": "reactingFoam",
+                          "value": "reactingFoam"
+                        },
+                        {
+                          "text": "XiFoam",
+                          "value": "XiFoam"
+                        },
+                        {
+                          "text": "buoyantSimpleFoam",
+                          "value": "buoyantSimpleFoam"
+                        },
+                        {
+                          "text": "buoyantPimpleFoam",
+                          "value": "buoyantPimpleFoam"
+                        },
+                        {
+                          "text": "interFoam",
+                          "value": "interFoam"
+                        }
+                      ]
                 },
                 {
                     "name": "ARGUMENTS",
