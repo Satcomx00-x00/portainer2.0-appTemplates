@@ -14,6 +14,7 @@
       "interactive": true,
       "name": "fds-6.7.6",
       "hostname": "fds",
+      "entrypoint": "/entrypoint.sh",
       "env": [
         {
           "name": "MPI",
@@ -22,7 +23,191 @@
         },
         {
           "name": "OMP_NUM_THREADS",
-          "label": "Number of OpenMP Threads",
+          "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
+          "default": "1"
+        },
+        {
+          "name": "FDS_FILE_PATH",
+          "label": ".fds exact file path",
+          "default": "/files/THE_FDS_FILE_NAME.fds"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/workdir",
+          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
+          "readonly": false
+        },
+        {
+          "container": "/files",
+          "bind": "",
+          "readonly": false
+        }
+      ],
+      "network": "none",
+      "restart_policy": "no",
+      "privileged": false
+    },
+    {
+      "type": 1,
+      "title": "Fire Dynamics Simulator (FDS) 6.7.1",
+      "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+      "note": "Supports parallel computation with MPI and OpenMP",
+      "categories": ["fds", "simulation"],
+      "platform": "linux",
+      "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+      "registry": "docker",
+      "image": "ap/fds-6.7.1:latest",
+      "interactive": true,
+      "name": "fds-6.7.1",
+      "hostname": "fds",
+      "env": [
+        {
+          "name": "MPI",
+          "label": "Number of MPI Processes",
+          "default": "1"
+        },
+        {
+          "name": "OMP_NUM_THREADS",
+          "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
+          "default": "1"
+        },
+        {
+          "name": "FDS_FILE_PATH",
+          "label": ".fds exact file path",
+          "default": "/files/THE_FDS_FILE_NAME.fds"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/workdir",
+          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
+          "readonly": false
+        },
+        {
+          "container": "/files",
+          "bind": "",
+          "readonly": false
+        }
+      ],
+      "network": "none",
+      "restart_policy": "no",
+      "privileged": false
+    },
+    {
+      "type": 1,
+      "title": "Fire Dynamics Simulator (FDS) 6.7.9",
+      "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+      "note": "Supports parallel computation with MPI and OpenMP",
+      "categories": ["fds", "simulation"],
+      "platform": "linux",
+      "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+      "registry": "docker",
+      "image": "ap/fds-6.7.9:latest",
+      "interactive": true,
+      "name": "fds-6.7.9",
+      "hostname": "fds",
+      "env": [
+        {
+          "name": "MPI",
+          "label": "Number of MPI Processes",
+          "default": "1"
+        },
+        {
+          "name": "OMP_NUM_THREADS",
+          "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
+          "default": "1"
+        },
+        {
+          "name": "FDS_FILE_PATH",
+          "label": ".fds exact file path",
+          "default": "/files/THE_FDS_FILE_NAME.fds"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/workdir",
+          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
+          "readonly": false
+        },
+        {
+          "container": "/files",
+          "bind": "",
+          "readonly": false
+        }
+      ],
+      "network": "none",
+      "restart_policy": "no",
+      "privileged": false
+    },
+    {
+      "type": 1,
+      "title": "Fire Dynamics Simulator (FDS) 6.8.0",
+      "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+      "note": "Supports parallel computation with MPI and OpenMP",
+      "categories": ["fds", "simulation"],
+      "platform": "linux",
+      "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+      "registry": "docker",
+      "image": "ap/fds-6.8.0:latest",
+      "interactive": true,
+      "name": "fds-6.8.0",
+      "hostname": "fds",
+      "env": [
+        {
+          "name": "MPI",
+          "label": "Number of MPI Processes",
+          "default": "1"
+        },
+        {
+          "name": "OMP_NUM_THREADS",
+          "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
+          "default": "1"
+        },
+        {
+          "name": "FDS_FILE_PATH",
+          "label": ".fds exact file path",
+          "default": "/files/THE_FDS_FILE_NAME.fds"
+        }
+      ],
+      "volumes": [
+        {
+          "container": "/workdir",
+          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
+          "readonly": false
+        },
+        {
+          "container": "/files",
+          "bind": "",
+          "readonly": false
+        }
+      ],
+      "network": "none",
+      "restart_policy": "no",
+      "privileged": false
+    },
+    {
+      "type": 1,
+      "title": "Fire Dynamics Simulator (FDS) 6.4.0",
+      "description": "Fire Dynamics Simulator (FDS) is a large-eddy simulation (LES) code for low-speed flows.",
+      "note": "Supports parallel computation with MPI and OpenMP",
+      "categories": ["fds", "simulation"],
+      "platform": "linux",
+      "logo": "https://www.nist.gov/sites/default/files/images/2022/03/09/Fire%20Safety%20Story.png",
+      "registry": "docker",
+      "image": "ap/fds-6.4.0:latest",
+      "interactive": true,
+      "name": "fds-6.4.0",
+      "hostname": "fds",
+      "env": [
+        {
+          "name": "MPI",
+          "label": "Number of MPI Processes",
+          "default": "1"
+        },
+        {
+          "name": "OMP_NUM_THREADS",
+          "label": "Number of OpenMP Threads (OMP_NUM_THREADS)",
           "default": "1"
         },
         {
@@ -73,12 +258,12 @@
         },
         {
           "name": "ARGUMENTS",
-          "label": "Additional command arguments",
+          "label": "Arguments added to the main command (-parallel, ...)",
           "default": "-parallel"
         },
         {
           "name": "ZIP_ARCHIVE_INPUT",
-          "label": "Input .zip file path (case sensitive)",
+          "label": "A valid .zip file path uploaded into your personal volume. (CASE SENSITIVE)",
           "default": "OpenFoam/damBreak_Finer_4mpi"
         }
       ],
