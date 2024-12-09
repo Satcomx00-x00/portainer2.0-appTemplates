@@ -131,7 +131,7 @@
         },
         {
           "container": "/files",
-          "bind": null
+          "volume":null
         }
       ],
       "network": "none",
