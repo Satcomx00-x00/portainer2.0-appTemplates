@@ -127,13 +127,11 @@
       "volumes": [
         {
           "container": "/workdir",
-          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER",
-          "readonly": false
+          "bind": "/stockage/internal/YOUR_USERNAME/FDS_FOLDER"
         },
         {
           "container": "/files",
-          "bind": "",
-          "readonly": false
+          "bind": null
         }
       ],
       "network": "none",
