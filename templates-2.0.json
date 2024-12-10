@@ -1,5 +1,5 @@
 {
-  "version": "2",
+  "version": 2,
   "templates": [
     {
       "type": 1,
@@ -24,7 +24,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -41,35 +41,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -117,7 +117,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -134,35 +134,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -210,7 +210,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -227,35 +227,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -303,7 +303,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -320,35 +320,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -396,7 +396,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -413,35 +413,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -489,7 +489,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -506,35 +506,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -582,7 +582,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -599,35 +599,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -675,7 +675,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -692,35 +692,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -768,7 +768,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -785,35 +785,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -861,7 +861,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -878,35 +878,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -954,7 +954,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -971,35 +971,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1047,7 +1047,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -1064,35 +1064,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1140,7 +1140,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -1157,35 +1157,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1233,7 +1233,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -1250,35 +1250,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1326,7 +1326,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -1343,35 +1343,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1419,7 +1419,7 @@
       "log_driver": "json-file",
       "log_opts": {
         "max-size": "10m",
-        "max-file": "3"
+        "max-file": 3
       },
       "shm_size": "764M",
       "resources": {
@@ -1436,35 +1436,35 @@
         {
           "name": "MPI_PROCESSES",
           "label": "Number of MPI Processes",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
           "name": "OMP_NUM_THREADS",
           "label": "Number of OpenMP Threads per MPI Process",
-          "default": "1",
+          "default": 1,
           "select": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
           ]
         },
         {
@@ -1509,7 +1509,7 @@
         {
           "name": "MPI",
           "label": "Number of MPI Processes",
-          "default": "4"
+          "default": 4
         },
         {
           "name": "MODE",
