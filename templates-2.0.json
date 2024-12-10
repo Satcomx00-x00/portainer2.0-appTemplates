@@ -1125,7 +1125,7 @@
         {
           "name": "MPI",
           "label": "Number of MPI Processes",
-          "default": 4
+          "default": "4"
         },
         {
           "name": "MODE",
