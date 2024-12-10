@@ -65,8 +65,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": "/"
         }
       ],
       "network": "none",
@@ -137,8 +137,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -209,8 +209,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -281,8 +281,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -353,8 +353,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -425,8 +425,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -497,8 +497,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -569,8 +569,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -641,8 +641,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -713,8 +713,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -785,8 +785,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -857,8 +857,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -929,8 +929,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -1001,8 +1001,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -1073,8 +1073,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
@@ -1145,8 +1145,8 @@
           "readonly": false
         },
         {
-          "container": "/workdir",
-          "volume": "/files"
+          "container": "/files",
+          "volume": null
         }
       ],
       "network": "none",
