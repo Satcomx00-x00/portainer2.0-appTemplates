@@ -1157,7 +1157,7 @@
       "id": 17,
       "type": 1,
       "title": "OpenFoam 2306",
-      "description": "OpenFOAM CFD software for fluid flow and heat transfer simulation",
+      "description": "OpenFOAM CFD software for fluid flow and heat transfer simulation. Calculs",
       "note": "V0.5 - Supports parallel computation",
       "categories": [
         "simulation"
