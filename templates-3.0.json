@@ -1164,7 +1164,7 @@
       ],
       "platform": "linux",
       "logo": "https://alternative.me/media/256/gnu-octave-icon-zxbh5s33l9r6r1bo-c.png",
-      "image": "satcomx00-local/docker-openfoam:latest",
+      "image": "satcomx00/docker-openfoam:latest",
       "interactive": true,
       "name": "openfoam-2306",
       "hostname": "openfoam",
